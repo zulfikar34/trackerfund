@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7fd;
+    background-image: url(image/intro-1704559079.jpg);
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #c53c3c;
+    border-radius: 10px;
+}
+
+.container {
+    background: #cfc1c1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.balance-info {
+    margin-bottom: 20px;
+}
+
+.balance-info p {
+    font-size: 18px;
+    margin: 10px 0;
+   display: flex;
+
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+#amount-input {
+    
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#deposit-button {
+    background-color: #586fd6;
+}
+
+#withdraw-button {
+    background-color: #dc3545;
+}
+
+button:active {
+    opacity: 0.8;
+}

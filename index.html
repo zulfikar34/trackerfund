@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="container">
+        <h1>Tracker Of Expense</h1>
+        <div class="balance-info">
+            <p>Total Deposit: $<span id="total-deposit">0</span></p>
+            <p>Total Withdraw: $<span id="total-withdraw">0</span></p>
+            <p>Total Balance: $<span id="total-balance">0</span></p>
+        </div>
+        <div class="input-section">
+            <input type="number" id="amount-input" placeholder="Enter amount">
+            <div class="buttons">
+                <button id="deposit-button">Deposit</button>
+                <button id="withdraw-button">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
